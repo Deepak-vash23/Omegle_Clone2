@@ -17,22 +17,6 @@
 
 ---
 
-## 🧩 Folder Structure
-
-├── pages/
-│ ├── index.tsx # Main React page (Omegle + Dare challenge UI)
-│ └── api/
-│ ├── auth/ # Login/Register/Verify endpoints
-│ └── rooms/ # Room-management endpoints for video & dare mode
-├── libs/
-│ └── dbConnect.ts # MongoDB connection helper
-├── models/ # Optional: Mongoose models (User, Stats)
-├── styles/
-│ └── Home.module.css # Styling for the app
-├── .env # Environment variable config file (see below)
-├── README.md
-└── ...
-
 ## ⚙️ Setup Instructions
 
 1. **Clone this repository**
