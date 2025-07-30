@@ -19,7 +19,6 @@
 
 ## 🧩 Folder Structure
 
-.
 ├── pages/
 │ ├── index.tsx # Main React page (Omegle + Dare challenge UI)
 │ └── api/
