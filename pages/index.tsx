@@ -683,7 +683,7 @@ const DareGameInterface = ({ currentUser, onBack }: any) => {
                   marginBottom: '1rem'
                 }}>
                   <div style={{ fontSize: '0.8rem', color: '#ffd93d', marginBottom: '5px' }}>The Dare:</div>
-                  <div style={{ fontSize: '0.9rem' }}>"{currentDare}&quot</div>
+                  <div style={{ fontSize: '0.9rem' }}>&quot;{currentDare}&quot;</div>
                 </div>
                 
                 <div style={{ textAlign: 'center', color: '#fa709a', fontSize: '1.5rem' }}>
