@@ -320,7 +320,7 @@ const DareGameInterface = ({ currentUser, onBack }: any) => {
         setGamePhase('dare_input');
       }, 2000);
     }
-  }, [gamePhase, connectedUsers]);
+  }, [gamePhase, connectedUsers, currentUser?.userID, currentUser?.username, user1Video]);
 
   const handleDareSubmit = () => {
     if (selectedPerformer?.id !== currentUser?.userID) {
@@ -667,7 +667,7 @@ const DareGameInterface = ({ currentUser, onBack }: any) => {
                   </>
                 ) : (
                   <div style={{ color: '#ffd93d', textAlign: 'center', fontSize: '0.9rem' }}>
-                    You're the performer! Wait for your dare...
+                    You&apos;re the performer! Wait for your dare...
                   </div>
                 )}
               </div>
@@ -683,7 +683,7 @@ const DareGameInterface = ({ currentUser, onBack }: any) => {
                   marginBottom: '1rem'
                 }}>
                   <div style={{ fontSize: '0.8rem', color: '#ffd93d', marginBottom: '5px' }}>The Dare:</div>
-                  <div style={{ fontSize: '0.9rem' }}>"{currentDare}"</div>
+                  <div style={{ fontSize: '0.9rem' }}>"{currentDare}&quot</div>
                 </div>
                 
                 <div style={{ textAlign: 'center', color: '#fa709a', fontSize: '1.5rem' }}>
